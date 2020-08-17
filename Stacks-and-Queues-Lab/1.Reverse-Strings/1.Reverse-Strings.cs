@@ -6,13 +6,13 @@ class Program
     static void Main()
     {
         string input = Console.ReadLine();
-
         Stack<char> stack = new Stack<char>(input);
         char symbol;
         while (stack.TryPop(out symbol) == true)
         {
             Console.Write(symbol);
         }
+        //Stack<char> stack = new Stack<char>();
 
         //for (int i = 0; i < input.Length; i++)
         //{
@@ -22,8 +22,6 @@ class Program
         //{
         //    Console.Write(stack.Pop());
         //}
-
-
     }
 }
 
