@@ -30,7 +30,7 @@ class Program
         }
         if (stackOfNumbers.Contains(elementToLookFor))
         {
-            Console.WriteLine(stackOfNumbers.Contains(elementToLookFor));
+            Console.WriteLine("true");
         }
         else if (!stackOfNumbers.Contains(elementToLookFor) && stackOfNumbers.Count > 0)
         {
