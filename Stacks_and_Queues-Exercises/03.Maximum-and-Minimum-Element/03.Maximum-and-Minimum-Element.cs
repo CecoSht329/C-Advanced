@@ -27,27 +27,33 @@ class Program
             }
             else if (input.StartsWith("3"))
             {
-                int maxElement = int.MinValue;
-                foreach (int number in stackOfNums)
+                if (stackOfNums.Count > 0)
                 {
-                    if (number > maxElement)
+                    int maxElement = int.MinValue;
+                    foreach (int number in stackOfNums)
                     {
-                        maxElement = number;
+                        if (number > maxElement)
+                        {
+                            maxElement = number;
+                        }
                     }
+                    Console.WriteLine(maxElement);
                 }
-                Console.WriteLine(maxElement);
             }
             else if (input.StartsWith("4"))
             {
-                int minElement = int.MaxValue;
-                foreach (int number in stackOfNums)
+                if (stackOfNums.Count > 0)
                 {
-                    if (number < minElement)
+                    int minElement = int.MaxValue;
+                    foreach (int number in stackOfNums)
                     {
-                        minElement = number;
+                        if (number < minElement)
+                        {
+                            minElement = number;
+                        }
                     }
+                    Console.WriteLine(minElement);
                 }
-                Console.WriteLine(minElement);
             }
         }
         Console.WriteLine(string.Join(", ", stackOfNums));
