@@ -10,7 +10,15 @@ class Program
         int n = int.Parse(Console.ReadLine());
 
         Queue<int[]> pumps = new Queue<int[]>();
-        FillQueue(n, pumps);
+        for (int i = 0; i < n; i++)
+        {
+            int[] currentPump = Console.ReadLine()
+                .Split(" ", StringSplitOptions.RemoveEmptyEntries)
+                .Select(int.Parse)
+                .ToArray();
+
+            pumps.Enqueue(currentPump);
+        }
 
         int counter = 0;
 
@@ -43,17 +51,6 @@ class Program
         Console.WriteLine(counter);
     }
 
-    private static void FillQueue(int n, Queue<int[]> pumps)
-    {
-        for (int i = 0; i < n; i++)
-        {
-            int[] currentPump = Console.ReadLine()
-                .Split(" ", StringSplitOptions.RemoveEmptyEntries)
-                .Select(int.Parse)
-                .ToArray();
-
-            pumps.Enqueue(currentPump);
-        }
-    }
+    
 }
 
