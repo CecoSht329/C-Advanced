@@ -13,7 +13,6 @@ class Program
         int rows = dimentions[0];
         int cols = dimentions[1];
 
-        int[,] matrix = new int[rows, cols];
         int[] sums = new int[cols];
         for (int row = 0; row < rows; row++)
         {
