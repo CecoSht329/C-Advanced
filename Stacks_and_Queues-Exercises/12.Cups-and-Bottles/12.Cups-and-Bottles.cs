@@ -38,8 +38,8 @@ class Program
                     bottle = bottles.Peek();
                 }
                 cups.Dequeue();
-                wastedWater += bottle - cup;
                 bottles.Pop();
+                wastedWater += bottle - cup;
             }
         }
         if (!cups.Any())
