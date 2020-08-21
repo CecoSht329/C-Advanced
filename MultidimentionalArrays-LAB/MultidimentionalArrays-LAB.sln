@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4.Symbol-in-Matrix", "4.Sym
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5.Square-With-Maximum-Sum", "5.Square-With-Maximum-Sum\5.Square-With-Maximum-Sum.csproj", "{81F21C0E-A526-4433-A811-D16E39C2F771}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6.Jagged-Array-Modification", "6.Jagged-Array-Modification\6.Jagged-Array-Modification.csproj", "{0AC0C897-311C-40AB-9403-303B2DADFB8F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{81F21C0E-A526-4433-A811-D16E39C2F771}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{81F21C0E-A526-4433-A811-D16E39C2F771}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{81F21C0E-A526-4433-A811-D16E39C2F771}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0AC0C897-311C-40AB-9403-303B2DADFB8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0AC0C897-311C-40AB-9403-303B2DADFB8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0AC0C897-311C-40AB-9403-303B2DADFB8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0AC0C897-311C-40AB-9403-303B2DADFB8F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
