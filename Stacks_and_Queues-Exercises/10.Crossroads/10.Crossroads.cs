@@ -51,7 +51,6 @@ class Program
                             }
                             else
                             {
-                                ;
                                 crashPresent = true;
                                 crashedCar = currentCar;
                                 crashedIndex = timeLeft;
