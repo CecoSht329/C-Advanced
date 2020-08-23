@@ -6,12 +6,14 @@ class Program
 {
     static void Main()
     {
+        //1. Type input
         int[] dimentions = Console.ReadLine()
             .Split(" ")
             .Select(int.Parse)
             .ToArray();
         string snake = Console.ReadLine();
 
+        //2. Create a matrix
         int rows = dimentions[0];
         int cols = dimentions[1];
         char[,] matrix = new char[rows, cols];
