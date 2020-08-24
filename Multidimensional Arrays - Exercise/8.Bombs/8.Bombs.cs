@@ -8,12 +8,9 @@ class Program
     {
         int fieldSize = int.Parse(Console.ReadLine());
         int[,] field = new int[fieldSize, fieldSize];
-
         ReadFieldFromConsole(field);
-
         string[] coordinatesValues = Console.ReadLine().Split(" ", StringSplitOptions.RemoveEmptyEntries);
         ExplodeTheBombs(field, coordinatesValues);
-
         int aliveCells = 0;
         int sumAliveCells = 0;
         foreach (int cell in field)
@@ -26,7 +23,6 @@ class Program
         }
         Console.WriteLine($"Alive cells: {aliveCells}");
         Console.WriteLine($"Sum: {sumAliveCells}");
-
         PrintField(field);
     }
 
@@ -37,6 +33,7 @@ class Program
             for (int col = 0; col < field.GetLength(1); col++)
             {
                 Console.Write(field[row, col] + " ");
+
             }
             Console.WriteLine();
         }
@@ -57,47 +54,21 @@ class Program
 
             for (int row = currentBombRow - 1; row <= currentBombRow + 1; row++)
             {
-                bool isBiggerCol = false;
-                bool isBiggerRow = false;
-                int counter = 0;
                 for (int col = currentBombCol - 1; col <= currentBombCol + 1; col++)
                 {
-
-                    if (col < 0)
+                    if (row >= 0 && row < field.GetLength(0) && col >= 0 && col < field.GetLength(1))
                     {
-                        col++;
-                    }
-                    if (row < 0)
-                    {
-                        row++;
-                    }
-                    if (col >= field.GetLength(1))
-                    {
-                        isBiggerCol = true;
-                        col--;
-                    }
-                    if (row >= field.GetLength(0))
-                    {
-                        isBiggerRow = true;
-                        row--;
-                    }
-                    if ((counter < field.GetLength(0) - 1 || counter < field.GetLength(1) - 1) 
-                        && field[row, col] > 0)
-                    {
+                        if (field[row, col] <= 0 || currentBomb < 0)
+                        {
+                            continue;
+                        }
                         field[row, col] -= currentBomb;
-                        counter++;
                     }
-                    if (isBiggerCol)
-                    {
-                        col++;
-                    }
-                    if (isBiggerRow)
-                    {
-                        row++;
-                    }
+
                 }
 
             }
+
         }
     }
 
@@ -116,4 +87,3 @@ class Program
         }
     }
 }
-
