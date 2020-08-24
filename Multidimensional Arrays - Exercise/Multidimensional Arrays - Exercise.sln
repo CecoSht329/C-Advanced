@@ -9,15 +9,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2.Squares-in-Matrix", "2.Sq
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3.Maximal-Sum", "3.Maximal-Sum\3.Maximal-Sum.csproj", "{F47E5CA8-4805-4B8E-9AAD-239FACC2B849}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4.Matrix-Shuffling", "4.Matrix-Shuffling\4.Matrix-Shuffling.csproj", "{3043B4CB-1E67-4BC5-94B9-AA15516A0EF4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "4.Matrix-Shuffling", "4.Matrix-Shuffling\4.Matrix-Shuffling.csproj", "{3043B4CB-1E67-4BC5-94B9-AA15516A0EF4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5.Snake-Moves", "5.Snake-Moves\5.Snake-Moves.csproj", "{65DF2811-7605-4EC8-BFC6-F3DBAD193E06}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "5.Snake-Moves", "5.Snake-Moves\5.Snake-Moves.csproj", "{65DF2811-7605-4EC8-BFC6-F3DBAD193E06}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6.Jagged-Array-Manipulator", "6.Jagged-Array-Manipulator\6.Jagged-Array-Manipulator.csproj", "{B128B0FD-861A-4025-BD00-825B0EE1BDDD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "6.Jagged-Array-Manipulator", "6.Jagged-Array-Manipulator\6.Jagged-Array-Manipulator.csproj", "{B128B0FD-861A-4025-BD00-825B0EE1BDDD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.Knight-Game", "7.Knight-Game\7.Knight-Game.csproj", "{7992759C-4207-45BD-A419-22C548270AD5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "7.Knight-Game", "7.Knight-Game\7.Knight-Game.csproj", "{7992759C-4207-45BD-A419-22C548270AD5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "8.Bombs", "8.Bombs\8.Bombs.csproj", "{48F24BF0-C0F7-441D-8277-C2880EBD6FEC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "8.Bombs", "8.Bombs\8.Bombs.csproj", "{48F24BF0-C0F7-441D-8277-C2880EBD6FEC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "9.Miner", "9.Miner\9.Miner.csproj", "{4EF79858-8D3C-499E-BA81-C345ED905F01}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +59,10 @@ Global
 		{48F24BF0-C0F7-441D-8277-C2880EBD6FEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{48F24BF0-C0F7-441D-8277-C2880EBD6FEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{48F24BF0-C0F7-441D-8277-C2880EBD6FEC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4EF79858-8D3C-499E-BA81-C345ED905F01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4EF79858-8D3C-499E-BA81-C345ED905F01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4EF79858-8D3C-499E-BA81-C345ED905F01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4EF79858-8D3C-499E-BA81-C345ED905F01}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
