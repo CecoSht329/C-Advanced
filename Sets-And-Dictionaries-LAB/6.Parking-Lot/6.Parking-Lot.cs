@@ -19,10 +19,7 @@ class Program
             }
             else if (direction.ToLower() == "out")
             {
-                if (carNumbers.Contains(liscencePlate))
-                {
-                    carNumbers.Remove(liscencePlate);
-                }
+                carNumbers.Remove(liscencePlate);
             }
         }
         if (carNumbers.Count > 0)
