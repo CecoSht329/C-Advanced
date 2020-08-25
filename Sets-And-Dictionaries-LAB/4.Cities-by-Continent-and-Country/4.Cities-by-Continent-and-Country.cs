@@ -32,9 +32,8 @@ class Program
             Console.WriteLine($"{continentName}:");
             foreach (var (country, cities) in CountryAndCity)
             {
-                Console.WriteLine($"{country} -> {string.Join(", ",cities)}");
+                Console.WriteLine($"{country} -> {string.Join(", ", cities)}");
             }
         }
     }
 }
-
