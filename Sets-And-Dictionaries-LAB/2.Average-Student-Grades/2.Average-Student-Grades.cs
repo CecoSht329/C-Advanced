@@ -27,12 +27,9 @@ class Program
 
         foreach (var keyValuePair in grades)
         {
-            Console.Write($"{keyValuePair.Key} -> ");
-            foreach (var item in keyValuePair.Value)
-            {
-                Console.Write($"{item:F2} ");
-            }
-            Console.WriteLine($"(avg: {keyValuePair.Value.Average():F2})");
+            string allGrades = string.Join(" ", keyValuePair.Value.Select(x => x.ToString("F2")));
+            decimal averageGrades = keyValuePair.Value.Average();
+            Console.WriteLine($"{keyValuePair.Key} -> {allGrades} (avg: {averageGrades:f2})");
         }
     }
 }
