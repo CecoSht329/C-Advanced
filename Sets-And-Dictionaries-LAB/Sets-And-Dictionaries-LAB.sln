@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3.Product-Shop", "3.Product
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4.Cities-by-Continent-and-Country", "4.Cities-by-Continent-and-Country\4.Cities-by-Continent-and-Country.csproj", "{F7F781F1-9CCC-4B49-A7F0-B0E2A8BD2F9A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5.Record-Unique-Names", "5.Record-Unique-Names\5.Record-Unique-Names.csproj", "{3CD9308A-8589-45D5-A2C3-578A7AA24C18}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{F7F781F1-9CCC-4B49-A7F0-B0E2A8BD2F9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F7F781F1-9CCC-4B49-A7F0-B0E2A8BD2F9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F7F781F1-9CCC-4B49-A7F0-B0E2A8BD2F9A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3CD9308A-8589-45D5-A2C3-578A7AA24C18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CD9308A-8589-45D5-A2C3-578A7AA24C18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CD9308A-8589-45D5-A2C3-578A7AA24C18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CD9308A-8589-45D5-A2C3-578A7AA24C18}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
