@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 
 class Program
 {
@@ -16,10 +17,11 @@ class Program
             }
             occurences[symbol]++;
         }
-        foreach (var kvp in occurences)
-        {
-            Console.WriteLine($"{kvp.Key}: {kvp.Value} time/s");
-        }
+        Console.WriteLine(string.Join(Environment.NewLine, occurences.Select(x => $"{x.Key}: {x.Value} time/s")));
+        //foreach (var kvp in occurences)
+        //{
+        //    Console.WriteLine($"{kvp.Key}: {kvp.Value} time/s");
+        //}
     }
 }
 
