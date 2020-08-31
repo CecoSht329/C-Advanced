@@ -8,12 +8,12 @@ namespace _2.Knights_of_Honor
     {
         static void Main()
         {
-            var names = Console.ReadLine()
-                .Split(" ", StringSplitOptions.RemoveEmptyEntries)
-                .Select(x => "Sir " + x)
-            .ToArray();
+            Console.ReadLine()
+               .Split(" ", StringSplitOptions.RemoveEmptyEntries)
+               .Select(x => "Sir " + x)
+               .ToList()
+               .ForEach(x => Console.WriteLine(string.Join(Environment.NewLine, x)));
 
-            Console.WriteLine(string.Join(Environment.NewLine, names));
         }
     }
 }
