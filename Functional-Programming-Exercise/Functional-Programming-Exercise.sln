@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.Predicate-For -Names", "7
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "8.Custom-Comparator", "8.Custom-Comparator\8.Custom-Comparator.csproj", "{B21B043C-913C-46E4-A211-E52D0BDF5250}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "9.List-Of-Predicates", "9.List-Of-Predicates\9.List-Of-Predicates.csproj", "{B06F743F-913F-4DB2-B307-F3DB34D5F367}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +59,10 @@ Global
 		{B21B043C-913C-46E4-A211-E52D0BDF5250}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B21B043C-913C-46E4-A211-E52D0BDF5250}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B21B043C-913C-46E4-A211-E52D0BDF5250}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B06F743F-913F-4DB2-B307-F3DB34D5F367}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B06F743F-913F-4DB2-B307-F3DB34D5F367}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B06F743F-913F-4DB2-B307-F3DB34D5F367}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B06F743F-913F-4DB2-B307-F3DB34D5F367}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
