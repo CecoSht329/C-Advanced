@@ -16,7 +16,6 @@ namespace _3Custom_Min_Function
             Func<List<int>, int> getSmallest = x => x.Min();
 
             Console.WriteLine(getSmallest(numbers));
-
         }
     }
 }
