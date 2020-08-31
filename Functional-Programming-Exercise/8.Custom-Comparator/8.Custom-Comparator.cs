@@ -13,11 +13,11 @@ namespace _8.Custom_Comparator
                 .Select(int.Parse)
                 .ToList();
             numbers.Sort();
+
             Func<int, bool> filterEven = x => x % 2 == 0;
             Func<int, bool> filterOdd = x => x % 2 != 0;
 
             Console.WriteLine($"{string.Join(" ", numbers.Where(filterEven))} {string.Join(" ", numbers.Where(filterOdd))}");
-
         }
     }
 }
