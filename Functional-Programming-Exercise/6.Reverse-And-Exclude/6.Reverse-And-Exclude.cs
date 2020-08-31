@@ -14,7 +14,7 @@ namespace _6.Reverse_And_Exclude
                 .ToList();
             var n = int.Parse(Console.ReadLine());
             numbers.Reverse();
-            Func<int, bool> filter = x => x % 2 != 0;
+            Func<int, bool> filter = x => x % n != 0;
             Console.WriteLine(string.Join(" ", numbers.Where(filter)));
         }
     }
