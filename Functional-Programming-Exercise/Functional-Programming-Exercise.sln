@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.Action-Print", "1.Action-
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.Knights-of-Honor", "2.Knights-of-Honor\2.Knights-of-Honor.csproj", "{CF795ED5-C6BC-46D0-A93D-23DAE27F8492}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3Custom-Min-Function", "3Custom-Min-Function\3Custom-Min-Function.csproj", "{326A4012-C6AF-4FF6-876F-63137A3B2BFD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{CF795ED5-C6BC-46D0-A93D-23DAE27F8492}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CF795ED5-C6BC-46D0-A93D-23DAE27F8492}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CF795ED5-C6BC-46D0-A93D-23DAE27F8492}.Release|Any CPU.Build.0 = Release|Any CPU
+		{326A4012-C6AF-4FF6-876F-63137A3B2BFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{326A4012-C6AF-4FF6-876F-63137A3B2BFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{326A4012-C6AF-4FF6-876F-63137A3B2BFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{326A4012-C6AF-4FF6-876F-63137A3B2BFD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
