@@ -9,10 +9,9 @@ namespace _1.Action_Print
         static void Main()
         {
             var words = Console.ReadLine()
-                .Split(" ", StringSplitOptions.RemoveEmptyEntries)
-                .ToList();
+                .Split(" ", StringSplitOptions.RemoveEmptyEntries);
 
-            Action<List<string>> printWords = x => Console.WriteLine(string.Join(Environment.NewLine, x));
+            Action<string[]> printWords = x => Console.WriteLine(string.Join(Environment.NewLine, x));
             printWords(words);
         }
     }
