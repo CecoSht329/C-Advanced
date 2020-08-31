@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3Custom-Min-Function", "3Cu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4.Find-Evens-or-Odds", "4.Find-Evens-or-Odds\4.Find-Evens-or-Odds.csproj", "{AF027B78-9556-41DF-89D6-F15513B9B56E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5.Applied-Arithmetics", "5.Applied-Arithmetics\5.Applied-Arithmetics.csproj", "{52D89CEA-C02D-4771-86BD-1D6E0D8AEDA4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{AF027B78-9556-41DF-89D6-F15513B9B56E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AF027B78-9556-41DF-89D6-F15513B9B56E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AF027B78-9556-41DF-89D6-F15513B9B56E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52D89CEA-C02D-4771-86BD-1D6E0D8AEDA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52D89CEA-C02D-4771-86BD-1D6E0D8AEDA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52D89CEA-C02D-4771-86BD-1D6E0D8AEDA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52D89CEA-C02D-4771-86BD-1D6E0D8AEDA4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
