@@ -51,7 +51,7 @@ namespace CarManufacturer
             double remainingFuel = FuelQuantity - distance * FuelConsumption;
             if (remainingFuel > 0)
             {
-                FuelQuantity -= remainingFuel;
+                FuelQuantity = remainingFuel;
             }
             else
             {
