@@ -49,7 +49,7 @@ namespace CarManufacturer
         public void Drive(double distance)
         {
             double remainingFuel = FuelQuantity - distance * FuelConsumption;
-            if (remainingFuel > 0)
+            if (remainingFuel >= 0)
             {
                 FuelQuantity = remainingFuel;
             }
