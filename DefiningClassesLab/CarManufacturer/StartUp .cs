@@ -11,9 +11,10 @@ namespace CarManufacturer
             car.Make = "Audi";
             car.Model = "A80";
             car.Year = 1992;
-            Console.WriteLine($"Make: {car.Make}" +
-                $"{Environment.NewLine}Model: {car.Model}" +
-                $"{Environment.NewLine}Year: {car.Year}");
+            car.FuelQuantity = 200;
+            car.FuelConsumption = 200;
+            car.Drive(2000);
+            Console.WriteLine(car.WhoAmI());
         }
     }
 }
