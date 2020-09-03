@@ -4,13 +4,13 @@ namespace DefiningClasses
 {
     public class StartUp
     {
-        static void Main()
+        public static void Main()
         {
-            Person person = new Person();
-            person.Name = "Pesho";
-            person.Age = 25;
+            Family family = new Family();
+            Person person = new Person("Ivan", 30);
 
-
+            family.AddMember(person);
+            
         }
     }
 }
