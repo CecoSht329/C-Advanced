@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
 
 namespace DefiningClasses
 {
@@ -6,18 +8,16 @@ namespace DefiningClasses
     {
         public static void Main()
         {
-            Family family = new Family();
-
+            List<Person> people = new List<Person>();
             var lines = int.Parse(Console.ReadLine());
             for (int line = 0; line < lines; line++)
             {
                 var tokens = Console.ReadLine().Split(" ", StringSplitOptions.RemoveEmptyEntries);
                 Person person = new Person(tokens[0], int.Parse(tokens[1]));
-                family.AddMember(person);
+                people.Add(person);
             }
-            Person oldest = family.GetOldestMember();
             Console.WriteLine();
-            Console.WriteLine(oldest);
+            Console.WriteLine(string.Join(Environment.NewLine, people.Where(x => x.Age > 30).OrderBy(x => x.Name)));
         }
     }
 }
