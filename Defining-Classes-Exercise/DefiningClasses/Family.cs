@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Linq;
 
 namespace DefiningClasses
 {
@@ -16,6 +17,14 @@ namespace DefiningClasses
         public void AddMember(Person person)
         {
             this.people.Add(person);
+        }
+
+        public Person GetOldestMember()
+        {
+            Person person = this.people
+                .OrderByDescending(p => p.Age)
+                .FirstOrDefault();
+            return person;
         }
     }
 }
