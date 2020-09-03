@@ -48,20 +48,25 @@ namespace CarManufacturer
 
         public void Drive(double distance)
         {
-            double remainingFuel = FuelQuantity - distance * FuelConsumption;
-            if (remainingFuel >= 0)
+            double expenceFuel = FuelConsumption * distance / 100;
+            if (expenceFuel > FuelQuantity)
             {
-                FuelQuantity = remainingFuel;
+                Console.WriteLine("Not enough fuel to perform this trip!");
             }
             else
             {
-                Console.WriteLine("Not enough fuel to perform this trip!");
+                FuelQuantity -= distance / 100 * FuelConsumption;
             }
         }
 
         public string WhoAmI()
         {
-            return $"Make: {this.Make}\nModel: {this.Model}\nYear: {this.Year}\nFuel: {this.FuelQuantity:F2}L";
+            StringBuilder sb = new StringBuilder();
+            sb.AppendLine($"Make: {this.Make}");
+            sb.AppendLine($"Model: {this.Model}");
+            sb.AppendLine($"Year: {this.Year}");
+            sb.AppendLine($"Fuel: {this.fuelQuantity:f2}");
+            return sb.ToString();
         }
     }
 }
