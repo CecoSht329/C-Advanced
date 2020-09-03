@@ -7,10 +7,16 @@ namespace DefiningClasses
         public static void Main()
         {
             Family family = new Family();
-            Person person = new Person("Ivan", 30);
 
-            family.AddMember(person);
-            
+            var lines = int.Parse(Console.ReadLine());
+            for (int line = 0; line < lines; line++)
+            {
+                var tokens = Console.ReadLine().Split(" ", StringSplitOptions.RemoveEmptyEntries);
+                Person person = new Person(tokens[0], int.Parse(tokens[1]));
+                family.AddMember(person);
+            }
+            Person oldest = family.GetOldestMember();
+            Console.WriteLine($"{oldest.Name} {oldest.Age}");
         }
     }
 }
