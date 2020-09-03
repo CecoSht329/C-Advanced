@@ -6,6 +6,11 @@ namespace DefiningClasses
 {
     public class Family
     {
+        private List<Person> people;
 
+        public void AddMember(Person person)
+        {
+            this.people.Add(person);
+        }
     }
 }
