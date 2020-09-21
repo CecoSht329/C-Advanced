@@ -1,0 +1,13 @@
+C:\ProgramingLessons\C#_projects\C#Advanced\Generics-Lab\P01. Box\bin\Debug\netcoreapp3.1\P01. Box.exe
+C:\ProgramingLessons\C#_projects\C#Advanced\Generics-Lab\P01. Box\bin\Debug\netcoreapp3.1\P01. Box.deps.json
+C:\ProgramingLessons\C#_projects\C#Advanced\Generics-Lab\P01. Box\bin\Debug\netcoreapp3.1\P01. Box.runtimeconfig.json
+C:\ProgramingLessons\C#_projects\C#Advanced\Generics-Lab\P01. Box\bin\Debug\netcoreapp3.1\P01. Box.runtimeconfig.dev.json
+C:\ProgramingLessons\C#_projects\C#Advanced\Generics-Lab\P01. Box\bin\Debug\netcoreapp3.1\P01. Box.dll
+C:\ProgramingLessons\C#_projects\C#Advanced\Generics-Lab\P01. Box\bin\Debug\netcoreapp3.1\P01. Box.pdb
+C:\ProgramingLessons\C#_projects\C#Advanced\Generics-Lab\P01. Box\obj\Debug\netcoreapp3.1\P01. Box.csprojAssemblyReference.cache
+C:\ProgramingLessons\C#_projects\C#Advanced\Generics-Lab\P01. Box\obj\Debug\netcoreapp3.1\P01. Box.AssemblyInfoInputs.cache
+C:\ProgramingLessons\C#_projects\C#Advanced\Generics-Lab\P01. Box\obj\Debug\netcoreapp3.1\P01. Box.AssemblyInfo.cs
+C:\ProgramingLessons\C#_projects\C#Advanced\Generics-Lab\P01. Box\obj\Debug\netcoreapp3.1\P01. Box.csproj.CoreCompileInputs.cache
+C:\ProgramingLessons\C#_projects\C#Advanced\Generics-Lab\P01. Box\obj\Debug\netcoreapp3.1\P01. Box.dll
+C:\ProgramingLessons\C#_projects\C#Advanced\Generics-Lab\P01. Box\obj\Debug\netcoreapp3.1\P01. Box.pdb
+C:\ProgramingLessons\C#_projects\C#Advanced\Generics-Lab\P01. Box\obj\Debug\netcoreapp3.1\P01. Box.genruntimeconfig.cache
